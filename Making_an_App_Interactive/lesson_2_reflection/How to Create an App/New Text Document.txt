@@ -1,0 +1,10 @@
+
+  1-Draw the mock for thr complete app and the simple start.
+  2-Open the Stages pic.
+  3-Open the Setting up the Methods pic.
+  4-Open Plan you're Variables.
+  5-Use psudocode whenever you want to add something.
+  6-after you created the simple start make it interactive.
+  7-now that you have the simple start functional upgrade it to the comlete app without styling.
+  8-make your'e App pretty.
+

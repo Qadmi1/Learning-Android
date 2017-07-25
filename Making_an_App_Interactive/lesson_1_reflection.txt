@@ -1,0 +1,31 @@
+
+  How do you Plan to build the Layout?
+  1- Select Views.
+  2- Position Views.
+  3- Style Views.
+   
+  What does an Activity focus on?
+  Each Avtivity is focused on a certain thing tha the user can do.
+
+  How do you find detailed informations about Variables in Java?
+  Search on google "varuable names" and open the oracle website.
+
+  What is a crash in Android?
+  A crash in an App is when it unexpectedly quits and shows a dialogue message saying that the app has just crashed.
+  
+  What is a run time error in Android?
+  A run time error is an error that happens while/after the app is running.
+
+  What is a system log?
+  A system log is like a diary that the phone keeps about what's happening on the device.in Android it's called logcate.
+
+  Do yu need to know all the information about Android to become a good developer?
+  No, even the experienced developers at Google say it is impossible to know everything and you need look up for something when you 
+  don't know it.
+
+  What is a breakpoing debugging technique in Android?
+  It is when u add break point/s on a line and run the app in debugging mode then it will pause at these breakpoints.
+  this is done to identify where a bug has happened.
+
+  What is a psudocode?
+  It is a high level description that explains the steps of what the app will do.It is for humans not computers.
