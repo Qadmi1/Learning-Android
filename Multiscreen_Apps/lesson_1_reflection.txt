@@ -1,0 +1,29 @@
+
+  1-What is the usage of the AndroidManifiest.XML file?
+      It is like the table of contents in a book that summarize what's contained inside the book,
+      similarly the manifest file summarizes the important information about the whole app in a single place.
+
+  2-How can you make the Activity bar display the name of the Activity?
+      You modify android:label="" attribute.
+  
+  3-What is an intent and what is the difference between implict and explicit intents?
+      Intent: is a message that request to open another activity or app and contain some information in the message lik extras.
+      Implicit:Uses generic Actions to open an App like email,browser etc... .
+      Explicit:Specify the name of the exact desired app or activity to open.
+
+  4-What is a callback method?
+      The concept of callbacks is to inform a class  if some work in another class is done. 
+      Some call it the Hollywood principle: "Don't call us we call you".
+     
+  5-What are Input Events and EventListeners?
+      Input Events: The android framework will call the callback methods when  For instance a View (such as a Button) is touched, 
+      However, in order to intercept this, you must extend the class and override the method which is not practical if you have multiple views.
+      This is why we use  Event Listeners which are interfaces with a single callback method like onClick for example.
+
+  6-When would you use onClistener on a seperate class or inline?
+    Seperate Class:If im gonna use the listener many times.
+    Inline:If im gonna use it once and this is the most common.
+  
+  7-OnClickListener vs onClick?
+      1-if you attach a button to a Listener you can change the behavior of your button while your app is running.
+      2-onClick only recognize it's host Activity so you can only use Fragments with Listeners.

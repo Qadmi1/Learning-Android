@@ -1,0 +1,28 @@
+
+  What is an ArrayList?
+	It is a class that can change in size and u can use methods to access and modify elements and can only hold object data types.
+
+  What is the use for Log messages?
+	One of it's usages is to make sure a certain behaviour works as expected.Ex(Array indices has the right values)
+
+  What are the questions you need to ask before creating a while loop?
+	check the lesson_2_questions_while_loop  File
+  
+  while loop vs for loop.
+	lesson_2_while_vs_for File.
+
+  What is view recycling?
+	It means that you recycle you're views without the need of creating new ones.And you can do that by using a 
+	ListView+ArrayAdapter.
+
+  What is the use of the ArrayAdapter?
+	It knows how to translate the List in our case it is ArrayList to a ListView item.
+
+  Explain using a ListView+ArrayAdapter?
+	lesson_2_ListView+ArrayAdapter File.
+
+  When should you create a custom class?
+	You do that when the built in classes don't satisfy what you need.
+
+  When should you create a custom ArrayAdapter?
+	The deafault ArrayAdapter accept a layout with only one TextView so if you need anything else build a custom adapter.

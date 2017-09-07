@@ -1,0 +1,9 @@
+
+  When you have to make multiple changes should you do them all at once before testing or test after every change?
+	It is much better to test after every change because fixing the errors is much easier that way.
+
+  What are the strategies developers do when priotrizing multiple changes(you choose one of them based on you're situation)?
+	-Do the riskiest part first(to demonstarte proof of concept).
+	-Implement what you can based on available data.
+
+ 

@@ -1,0 +1,14 @@
+
+  Q1:What is an UP Button and how is it different from the Back button?
+	It is a button that looks like a horizontal arrow pointing left in the app bar and it takes you to the parent activity
+	and the back button takes you back to the previous page even if thaat was outside the current app.
+
+  Q2:The app looks amazingly awesome and beautiful! It looks done! So why change it?
+	This can happen in app development teams. You build version 1 of an app. Then the team decides to do a design refresh, to 
+	have an even better user experience. Then you proceed to build version 2 of the app!
+
+  Q3:What is a fragment in Android?
+	A fragment is just a part of an activity. You can have a fragment that takes up part of a screen or a whole screen. 
+	Or you can show multiple fragments at the same time to make up a whole screen.
+
+  

@@ -1,0 +1,72 @@
+ 
+  When do developers write a sample app to test a new technology?
+	They often write sample app to test a new technology to test it before building to their own larger app.
+
+  What should we do if the line of code exceeds 100 columns?
+	We should wrap the text to the next line then indent by 8 spaces.
+
+  What is the difference between Synchronous callbacks and a Asynchrous callbacks
+	Synchrous:Each line of code gets executed one after another and you must waitfor eachline to finish executing before
+	going to the next line.
+	Asynchrous:Jumb this particular block of code and continue executing the rest of the code and jumb back to this block
+	of code when a certain even happens(Ex:onClicklisteners) even if that happend before executing the rest of the code.
+
+  
+  Why shoud we release media resources?
+	Because if we don't it will cause our furure MediaPlayer object instances to not perform as effiecntly or drain the battery.
+
+  How can we determine when we no longer need MediaPlayer resources?
+	Generally if the MediaPlayer object is no longer being used and it depends on the app and you an check the MediaPlayer 
+	life cycle to determine when you should release it in youre app (generally on the onStop method).
+
+  How can we release the MediaPlayer resources and where is it recommened to do so in the code?
+	We can do so using the MediaPlayer.release() method and you can put it in a "helper" method with additional optional code
+	like the one we used with udacity and it is recommended to call it inside the onCompletionListener and before we instantiate
+	a new MediaPlayer object.
+
+  How can we make sure to release the MediaPlayer resources incase our user suddenly opened a different app?
+	we can do so by releasing the resurces on the onStop() or onPause() methods.
+
+  What is Audio Focus?
+	Audio focus refers to the assumption that only one thing should be playing at a time.
+
+  What does the AudioManager class in android allows us to do?
+	1-Request Audio Focus.
+	2-Abandon Audio Focus.
+	3-Register a Listener to get notified of Audio Focus states changes.
+	and other things we didn't learn yet.
+
+  How can we know or remeber the code for the AudioManager class?
+	I saved the most important code snippets in my favourite in chrome and it probably will always be enough to use on any app.
+
+  What does API means in Android?
+	API refers to the classes and methods that are offered by the Android framework that you as a developer can use.
+
+  What does the requestAudioFocus (AudioManager.OnAudioFocusChangeListener l, 
+                int streamType, 
+                int durationHint) method do?
+	 Send a request to obtain the audio focus.	
+  
+  What does the AudioManager.OnAudioFocusChangeListener listener do?
+	Called on the listener to notify it the audio focus for this listener has been changed.
+
+  What is the difference between the AudioManager.OnAudioFocusChangeListener and the durationHint parameter?
+	durationHint indicates the time for the AudioFucos if granted and the it's important.
+	the listener notify the requestAudioFocus method about the changes on the Audio Focus and allow the developer
+	on deciding what to do in each case(check broser bookmarks for the cases).
+
+  Talk more about previous question.
+	The importance of the durationHint for example we choose AUDIOFOCUS_GAIN_TRANSIENT_EXCLUSIVE that means the listener
+	will not temporarily lose focus for system sounds like notifications however in other duration hints it will lose focus
+	for system sounds.And you csn check more on the comments in the miwok app or the book marks. 
+
+  How can you manage Audio Focus in the app?
+	Check the miwok app or the github for udacity.
+
+  Why add touch feedback for clickable views?
+	They can make your app appear fast and responsive, even if nothing else happens yet.	
+
+  How can we add the touch feed back to our views?
+	1-use the "?android:attr/selectableItemBackground” attribute.
+	2-use the android:drawSelectorOnTop="true" attribute for ListView.
+	
