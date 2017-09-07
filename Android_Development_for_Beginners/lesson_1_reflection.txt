@@ -1,0 +1,14 @@
+What new things did you learn?
+  1-I was right about all the previous learning exepriences that seem to ignore the reasoning of the educated which is not 
+    a true education.
+  2-It is not difficult to learn android on this course because i truly enjoy it.
+
+What new things related to XML did you learn?
+  1-As an android developer i actually need to be able to use XML.
+  2-TextView is a box in the canvas that holds text.
+  3-ImageView is a box in the canvas that holds an image.
+  4-I learned that i can follow the material design provided by google to make a good UI.
+  5-I learned that i don't have to remind the XML code because all of the documentation is available on 
+    the android developers wbsite.
+  6-It is better to work with a designer but if you work without one it is recommended that you follow 3 or 4 material 
+    design styles.

@@ -1,0 +1,23 @@
+1-What do you know now about XMl tags?
+  An XML tag start with a "<" and ends with a "/>" if it has no childeren, and if it had children then it would end with a ">"
+  then list all the children and they follow the same rules, and after you list all of them end the tag with a closing tag which 
+  should be composed from a "< tag name />".now between the opening tag and closing tag in both cases(children or no children) you
+  set the attributes for that particular tag. 
+
+2-what do you know about the wrap_content, match_parent, and layout_weight XML attributes?
+  -wrap_content:It wraps the the box(any XML tag) exactly around it's content no thing more or less.
+  -match_parent:It adjust the size of the box to be exactly like the size of it's parent(mostly a layout or ImageView).
+  -layout_weight:It takes values and then distribute whatever space left from the parent depending on these values.// If it is
+  vertical the height is always 0 and if it is horizontal the width is always 0.
+
+3-what do you know about relative layout ?
+  It puts the children views relatively to the parent or other views.
+
+4-What do you know about layout prams?
+  They are usen on layouts and they, all start with "layout_". also you can search for any layout params on google and you'll
+  find it on android developer website.
+
+5-what is the difference between paddin and margin in android XML?
+  -Padding is related to the view it self and it is an extra space between the content and the view's box.
+  -Margin is related to the parent of the view and it is a force field around that view that no thing can pass.
+  Also you can add a padding/margin on one side or more on the view.
