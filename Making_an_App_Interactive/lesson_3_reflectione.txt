@@ -1,0 +1,16 @@
+
+  -what new thing did you learn?
+  1-Data type and objects are not the same thing in java and String is an object not a data type.
+  2-Creating a method is like designing a car and calling it is like driving the car.
+  3-A Parameter is the input in the method declaration. An argument is the input in the method call.
+  so parameter=Method declaration, argument=Method call.
+  4- A method in java returns only one value with the type of the return value of the method.
+  5- A reserved word in java is called "Java Key Word" and you can find all of them on the oracle docs.
+  6-You can assign a method call to a variable if the data types match also you can make arithemtic operaions on the 
+  method call(price = calc() +10).
+  7-An android app is created from a java code(the logic) and resources which is anything on android that is not code
+  (XML files, pictures, music, etc..)
+  8-When an ap is started the system intiate the main activity and when the layout is inflated the android device parse
+  the XML file and create a java object that represent every XML element.
+  
+  

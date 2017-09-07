@@ -1,0 +1,14 @@
+things i learned:
+1-add padding left for a CheckBox if u want add a space before text.
+2-Learned ScrollView tag.
+3- Imposter Syndrome is normal.
+4-learnes the usage of return in if statement.
+5-appreciated the importance of comments.
+6-Understood the usage of intents they start another activity or app and that is defiend by an action(general action and the system 
+will figure the apps from the type ex browser, emal).
+7- If statement if u have one argument it means it's == true.
+8-Localization means to find users from different contries and you can easily do it with the translator
+also if u have something u dont want to translate use xliff tag.
+9-Style is like CSS in web development and you use the tag style in the main xml file.
+10- Theme is also like CSS but for a whole activity or app and you have three built in themes in android dark, light, light
+with dark header.
