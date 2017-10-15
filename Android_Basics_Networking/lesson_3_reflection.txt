@@ -1,0 +1,34 @@
+
+  What is a thread?
+    A thread is a container that holds a sequence of instructions, such as the Java code that the device will execute.
+    And it's needed by Android to schedule all the tasks that need to be run on the device's hardware.
+
+  What is the main thread?
+    When building Android Apps, it's important to understand that the application code is run by default on what is called
+    the main thread, which is also known as the UI thread.
+
+  What does Parallelism mean in Android?
+    It means to do more than one task at the same time(I beileve that happens with threads only).
+
+  What is the benefit of using AsyncTask?
+    AsyncTAsk is great for handling a short task without the overhead of managing a standard thread.
+
+  Is AsyncTask suitable for every threading situation?
+    No, if you run into a situation where you need a thread that exists for more than a few seconds, you'll need to use 
+    something more robust.
+
+  Does the AsynTask class run on the main thread or a backgrounf thread?
+    The doOnBackground() method runs on a background thread and the rest of the methods run on the main thread.
+
+  Can you update the UI from a background thread?
+    No, you can only do it from the main thread also known as the UI thread.
+
+  Write the AsyncTack generic parameters and explain where each one is used?
+    AsyncTask<Params, Progress, Result>. Params is the method declaration data type for doInBackgtound and Result is the return data 
+    type, Progress is the method declaration/input data type to the onProgressUpdate method. 
+
+  Why use an Inner Class?
+    1-If the Inner Class is only ever used bu the containing class.
+    2-Since the Inner Class is inside the containing class it can acess all of it's private methods and variables.
+    3-To keep the files in the App more condensed since you wont create a new file for the Inner Class because it is only ever used
+    by the containing class.

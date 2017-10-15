@@ -1,0 +1,66 @@
+
+  What does an HTTP request do?
+	It specifies explicitly what type of content your'e looking for and how you'd like it delivered.
+
+  What is the idea of an HTTP request?
+	 you ask for some information, you get a response, and then you extract the information in a way that is useful.
+
+  What are the parts of a URL?
+	parts_of_url.png
+
+  What is a Web Server?
+	It's a computer or a group of computers on a network running a program that responds to HTTP requests.
+
+  What is a Protocol?
+	It's a predefined set of rules that allows computers to communicate and coordinate with one another in order to 
+	complete a task.
+
+  How does an HTTP communication work?
+	The client transmit/sends a message containing HTTP methods(or verbs just another name no difference) that convey(tell)
+	their request(or intention) to the server then the server recieves and interpret the message, react, and then send a	
+	a respond back to the client. 
+
+  What are new things you learned from reading the Soonami App?
+	1-Async Task class:AsyncTask facilitates the usage of background threads in Android(without Async this will be complex).
+	2-URL class:can be used to manipulate URLs of any protocol.
+	3-HttpURLConnection:A URLConnection with support for HTTP-specific features.
+	4-InputStream:This abstract class is the superclass of all classes representing an input stream of bytes.
+	5-InputStreamReader:An InputStreamReader is a bridge from byte streams to character streams: It reads bytes and decodes 
+	them into characters
+	6-BufferedReader:Reads text from a character-input stream, buffering characters so as to provide for the efficient 
+	reading of characters, arrays, and lines.
+
+  What are the steps for the Soonami App(Which takes data from an API)?
+	1-Create an AsynTask class with our own custom type(custom class).
+	2-Translate the USGS response into a URL(URL class type).
+	3-Create an instance of HttpURLConnection and attach the url, method, readtime, connection time, and start the connection.
+	4-Throw the instance of HttpURLConnection into an InputStream instance.
+	5-Translate the InputStream to InputStreamReader then into a BufferReader.
+	6-Assign The BufferReader(The data here is in JSON format because that's what the server uses) to a String.
+	7-As long as the line is still alive meaning Data still being transmitted from the server append all that data to
+	a StringBuilder.
+	8-Return the String Builder As String and that String is in a JSON format(because the server uses JSON format).  
+
+
+  What does the request of data a client makes from a server called?
+	In conversation it is called a Query URL where query means a request of data.
+
+  What are server API endpoints?
+	 Different URL's will give different data and these are known as different server API endpoints that the client can talk to.
+ 
+  What does the HttpURLConnection class do?
+	It helps you send and recieve data across the web using an HTTP connection.
+
+  When do Exceptions in Android occur?
+	When a Java method fails or run into an unexpected state it can throw an exception shorth for an exceptional event.
+
+  What are Exceptions in Android?
+	Exceptions are basically errors but they are also captured and wrapped into actual instances of the Exception class which holds
+	information about what went wrong and what was happening in the system at the time.
+
+  What can you as a developer do to throw an Exception?
+	You can write a method that declares that it will throw an Exception meaning that the code inside that method Either:
+	1-Generate an Exception to indicate a unique condition.
+	2-Call a method that throws an Exception which is more common. 
+
+

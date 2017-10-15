@@ -1,0 +1,39 @@
+
+  How does every great app starts?
+	It starts with having a clear vision of it's existence.
+
+  What does make an app useful?
+	1-It adds value. 2-It's a joy to use.
+  What is an API?
+	API is short for Application Programming Interface it's how a software product or a server make certain parts of
+	it's functionality or data available to use to other software.
+
+  How will you fetch data from USGS(or any website or data source) to youre app?
+	You do it using Drive-Through Data(or Drive-Through Data window).
+
+  What do you need to know before extracting data from an API?
+	You need to know the format of the data.
+
+  What is JSON any why use it?
+	JSON (JavaScript Object Notation) is a lightweight format that is used for data interchanging. It is based 
+	on a subset of JavaScript language (the way objects are built in JavaScript). As stated in the MDN, some 
+	JavaScript is not JSON, and some JSON is not JavaScript.
+
+	An example of where this is used is web services responses. In the 'old' days, web services used XML as their 
+	primary data format for transmitting back data, but since JSON appeared (The JSON format is specified in RFC 4627
+	by Douglas Crockford), it has been the preferred format because it is much more lightweight.
+
+  What is UNIX Time?
+	This format is called Unix time, and it's describes a time as the number of milliseconds that have passed since 
+	midnight 1970 in England.
+
+  How to convert UNIX Timt to readable date and time?
+	research Data Formatting android.(use SimpleDataFormat class)
+
+  How can you split a String to two seperate Strings?
+	Revise lesson:1 part 21.(use String methods)
+
+  How can you show a decimal value ub the format you want?
+	Revise lesson:1 part 22.(use DecimalFormat class)
+
+  

@@ -1,0 +1,54 @@
+
+  Constructer EX:
+   /**
+   * Constructs a new {@link Earthquake} object.
+   *
+   * @param magnitude is the magnitude (size) of the earthquake 
+   * @param location is the city location of the earthquake
+   * @param timeInMilliseconds is the time in milliseconds (from the Epoch) when the
+   *  earthquake happened
+   */
+
+  Getter:
+  /**
+  * Returns the time of the earthquake.
+  */
+  public long getTimeInMilliseconds() {
+     return mTimeInMilliseconds;
+  }
+
+  One of the ways for method comments:
+  /**
+  * Return the formatted magnitude string showing 1 decimal place (i.e. "3.2")
+  * from a decimal magnitude value.
+  */
+
+  AsyncTask class:
+  /**
+  * {@link AsyncTask} to perform the network request on a background thread, and then
+  * update the UI with the first earthquake in the response.
+  */
+
+  AsyncTask.doInBackground:
+    /**
+    * This method is invoked (or called) on a background thread, so we can perform
+    * long-running operations like making a network request.
+    *
+    * It is NOT okay to update the UI from a background thread, so we just return an
+    * {@link Event} object as the result.
+    */
+
+  AsyncTask.onPostExecute:
+     /**
+     * This method is invoked on the main UI thread after the background work has been
+     * completed.
+     *
+     * It IS okay to modify the UI within this method. We take the {@link Event} object
+     * (which was returned from the doInBackground() method) and update the views on the screen.
+     */
+    
+  AsyncTask.execute:
+   // Create an {@link AsyncTask} to perform the HTTP request to the given URL
+   // on a background thread. When the result is received on the main UI thread,
+   // then update the UI.
+  

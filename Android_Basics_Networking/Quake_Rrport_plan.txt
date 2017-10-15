@@ -1,0 +1,14 @@
+1-Assign the provided URL to a String.
+2-Create a class and call it Utils to handle the HTTP request.
+3-Create a method in the Utils class that takes a String as input and returns an Earthquake instance.
+4-Create a method in the Utils class that takes the URL and convert it from a String to URL.
+5-Create a method in the Utils class that handles the HTTP request.
+6-Create a method in the Utils class that handles converting the InputStream to a String.
+7-Create a QueryUtils constructor that takes a String as input.
+8-In the Utils class call the QueryUtils constructer and give the JSON response(which is a String) as input.
+9-In the QueryUtils class store the received JSON response in a String variable and name it JSONResponse.
+10-In the QueryUtils.extractEarthquakes replace the SAMPLE_JSON_RESPONSE String with the JSONResponse String.
+11-In the EarthQuakeActivity class create an inner class and make it extend AsyncTask.
+12-move the earthquakes object inside the doInBackground method inside the inner class.
+13-move the ListView and adapter declarations inside the onPostExecute inside the inner class.
+14-Create an instance from the inner class and call the execute() method on that instance object.
