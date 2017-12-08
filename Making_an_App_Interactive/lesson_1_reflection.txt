@@ -5,7 +5,7 @@
   3- Style Views.
    
   What does an Activity focus on?
-  Each Avtivity is focused on a certain thing tha the user can do.
+  Each Avtivity is focused on a certain thing that the user can do.
 
   How do you find detailed informations about Variables in Java?
   Search on google "varuable names" and open the oracle website.

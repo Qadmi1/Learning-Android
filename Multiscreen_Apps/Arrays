@@ -1,0 +1,26 @@
+Note:Every index in an array is treated as a normal variable, you can add them substract from them or do anything you can do with an ordinary variable.
+
+Write a method to find the min value of an array.
+  public double findMin(double [] array)
+  {
+    // get the size of the array
+    double size = array.length;
+    /**this is important. Create the min variable that we will apply the comparison on, and assign to it the first value of the array  *because you will compare this value, this first value of the array to the rest values of the array
+    */
+    double min = speed[0];
+
+    for(int i=1 ; i<size; i++)
+    {
+    // if the array index is greater than min jumb, we want the value that is less than min to be assigned to min, so when we iterate   //through the whole loop min would have the smallest value.
+    if(array[i]< min)
+    {
+      min = array[i];
+    }
+    }
+
+        return min;
+
+  }
+
+What is a 2D array in java?
+  It is an array of arrays, unlike a one dimentiona array which is an array of indices. So, a 2D array is an array of arrays, and for each one of those array is a normal one dimentional array, meaning it is an array of indices. This is how you type or create it e.g. int grades[arrays][index for the specific array we are at];

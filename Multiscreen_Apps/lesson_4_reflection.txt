@@ -69,4 +69,8 @@
   How can we add the touch feed back to our views?
 	1-use the "?android:attr/selectableItemBackground” attribute.
 	2-use the android:drawSelectorOnTop="true" attribute for ListView.
-	
+
+  Note:The MediaPlayer class (Which handles media play backs like audio and video) has a state machine(meaning 
+	at what state the current media is at e.g. idle, paused, started ... and you can find the state diagram
+	at the official android developer website, and the state is not a life cycle for the MediaPlayer.
+	The state changes inside any cycle of the Acticity life cycle, it changes inside it.

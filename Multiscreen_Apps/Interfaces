@@ -1,0 +1,18 @@
+What is the purpose of an Interface?
+  It's sole porpuse is to be implemented by a class, it only lists what needs to be done but not how to do it.
+
+Why Interfaces were introduced in Java?
+  To solve the multiple inheritance problem which Java doesn't support.  
+
+What is the use of an Interface in java?
+  Unlike classes, Interfaces aren't  reducing the code we write, but they enforce a good design, meaning that we are forced to implement
+  a number of methods.
+
+What is the use of making a method "final"?
+  When you make a method final, you protect it from being overridden, meaning that you can't override a final  method.
+
+What is the use of making a field(instance variable) "final"?
+  Simply it makes it constant, the value of the field cannot be changed.
+
+What is the use of making an instance variable "static"?
+  If you make an instance variable static the assigned value to that instance will be saved in it's class not the object itself, meaning: 1-you can access this instance from another class directly without creating an object. 2-If you call it again in another class or the same class it will still have it's assigned value rather than starting from the start.

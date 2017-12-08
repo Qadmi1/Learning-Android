@@ -1,0 +1,7 @@
+Note: in while loop the condition is treated in a similar way to the conditon in an if statement. e.g. while(inputStream).
+
+What is the format of a shorthand calculation?
+ The arithmetic operation followed by assign.(e.g.*=, /= ).
+
+What is the use of the break keyword in loops?
+ It will break you out of the loop, in some conditions like making a search for example you'd want to break out of the loop once you find the item you are searching for.
