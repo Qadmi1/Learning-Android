@@ -1,0 +1,9 @@
+What is the use of a CursorLoader?
+    It will make the data query process happen on a background thread for these reasons:
+        1-Data query is time consuming, so doing it on the UI thread might make the screen freeze
+        (unresponsive App).
+        2-It will make the data query automatic, so everytime there is a change in the database it will
+        make a data query automaticly.
+        3-It will make sure that the App doesn't unnecessarily reload the data. For example when you 
+        rotate the phone or navigate to another App then comeback.
+        4-Make sure that the App only reload the data when a change happen in the database. 

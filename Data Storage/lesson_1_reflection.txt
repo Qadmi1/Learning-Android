@@ -1,0 +1,28 @@
+
+What are the steps to set up SQlite in Android?
+    1-Define a schema.
+    2-Create a Contractor class.
+
+What is a database schema?
+    Database schema() describes the structure of the database(blue print for the database). 
+
+Why create a Contract class?
+    1-Define a schema(structure).
+    2-When generatin SQL commands, remove the possiblity of introducing(making) spelling errors(use auto complete).
+    3-Ease of updtaing the database schema(modularity like the strings and the style resources).
+
+What is the general structure for the Contract class?
+    1-Outer class name BlankContract (e.g. WeatherContract).
+    2-Inner class name BlankEntry (e.g. LocationEntry) for each table in the database. Each of these inner classes should 
+    implement a class called BaseColumns.
+    3-String constants for table name and for each of the readings (e.g. TABLE_NAME, COLUMN_CITY_NAME, etc).
+
+What is a Cursor?
+    It is a Table that is returned from a query.
+    
+What does the PetDbHelper(which extends SQliteOpenHelper class) class do?
+    1-It creates a database if one with the same name doesn't exist.
+    2-Provide a connection to a database and returns the connection as an SQliteDatabase object.
+
+What does SQliteDatabase class/object do ?
+    You can call the various/all CRUD methods.

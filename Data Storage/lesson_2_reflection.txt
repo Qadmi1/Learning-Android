@@ -1,0 +1,54 @@
+What does the Content Provider do?
+    We can centeralize the accessing and the editing of the data via the Content Provider.
+
+How does the Content Provider work?
+    It acts as black box for the data(e.g. DB, Text, photo...). The UI code only interacts with 
+    the Content Provider. No matter what kind of data is inside/handled by the Provider.  
+
+What is the benefit of using Content Provider?
+    It adds a good abstraction layer between the data sourse and the UI code, in which it will 
+    give the following benefits:
+      1-Add data validation.
+      2-Moidfy how data is stored while the UI code is unaffected(unchanged).
+      3-Works well with other Android framework classes.
+      4-Can share data with other apps securely. 
+
+Note:When sharing data via the Content Provider between different Apps, the Content Provider is
+exposed to the Android System itself, rather than being exposed to other Apps directly. And from
+there other Apps can access the Provider.
+
+How do orher Apps communicate with the Content Provider?
+    They do so through the contract, and when you need a more specific data you request that data by
+    using a Content URI.
+
+Why use a Content URI?
+    Because there maybe numerous Content Providers(from different Apps) in the Android System, so 
+    by using the Content URI, you can identify the desired Content Provider by using the Content
+    Resolver.
+
+What does the Content Resolver do?
+    It takes the Content URI and resolves(figure or find out) which Content Provider should handle 
+    the request. It does so, by using the Content Authority.
+
+What is the Content Authority?
+    It is the first part of the Content URI, which is com.android.<app name>. Like the 
+    domain/authority part in a web URL.
+
+Note:In reality the Apps don't communicate with Content Providers directly, actually they 
+communicate with the Content Resolver, and then the Resolver communicate to the Provider.    
+
+What is a URI Matcher?
+    The Content Provider utilzes/use the URI Matcher, which determines what kind/pattern of URI was passed to it(you create the different 
+    kinds/patterns, they are not built in).You create patterns for the Matcher, which you can check an example of in the 
+    uri_matcher_pattern_example pic.
+
+What does the URI Matcher do?
+    open uri_matcher_pattern_use pic.    
+
+Note:The URI Matcher is job is to ensure the Content Provider would only handle valid URIs.    
+
+Whatis the purpose of the getUri(Uri uri) method?
+     The purpose of this method is to return a String that describes the type of the data stored at the input Uri. This String is known as 
+     the MIME type, which can also be referred to as content type.
+
+Note:Check the MIME_further explanation.     

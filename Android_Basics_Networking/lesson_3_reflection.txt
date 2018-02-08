@@ -32,3 +32,18 @@
     2-Since the Inner Class is inside the containing class it can acess all of it's private methods and variables.
     3-To keep the files in the App more condensed since you wont create a new file for the Inner Class because it is only ever used
     by the containing class.
+
+   
+  What is the problem(gutcha!) with the AsyncTack class?
+    The problem simply is memory leak. When the activity is suppose to be destroyed like for example rotating the phone, the Activity 
+    will not be destroyed because the Async netwark call/task is maybe not finished and it will remain in memory causing a memory leak
+    and slowing the device.
+
+  What is the Loader?
+    It is the solution to the AsyncTask memory leak problem as it will check if there is a currently a Laoder by checking it's 
+    identifier/tag/key and if it doeas exesit it will use that same Loader fixing the problem of AsyncTack which create a new instance whether
+    or not an instance of it allready exist.
+
+    
+
+      
