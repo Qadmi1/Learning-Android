@@ -47,7 +47,7 @@ What does the URI Matcher do?
 
 Note:The URI Matcher is job is to ensure the Content Provider would only handle valid URIs.    
 
-Whatis the purpose of the getUri(Uri uri) method?
+What is the purpose of the getUri(Uri uri) method?
      The purpose of this method is to return a String that describes the type of the data stored at the input Uri. This String is known as 
      the MIME type, which can also be referred to as content type.
 
